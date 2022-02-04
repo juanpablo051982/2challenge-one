@@ -1,0 +1,79 @@
+body{
+    background-color: cornflowerblue;
+}
+header{
+    text-align: center;
+    background-color:rgb(4, 4, 90);
+    font-size: xx-large;
+    font-weight: 400;
+    color:rgb(247, 18, 48);
+    margin-left: -10px;
+    margin-right: -10px;
+}
+#canvas{
+    margin-left: -10px;
+}
+#iniciarJuego
+{
+    width: 317px;
+    height: 105px;
+    border-radius: 24px;
+    margin: 24px;
+    font-size: 18px;
+    color: white;
+    background-color: #0A3871;
+    justify-content: center;
+    margin-left: 300px;
+}
+
+#iniciarJuego:hover
+{
+    cursor: pointer;
+}
+
+#agregar_palabra
+{
+    width: 280px;
+    height: 67px;
+    border-radius: 24px;
+    margin: 24px;
+    font-size: 16px;
+    color: darkblue;
+    border: 1px solid #0A3871;
+    justify-content: center;
+    margin-left: 320px;
+}
+p{
+    margin-left: 350px;
+}
+ul{
+    margin-left: 350px;
+}
+#agregarPalabra{
+    margin-left:320px;
+    width: 280px;
+    height: 67px;
+    justify-content: center;
+    text-align: center;
+}
+#agregar_palabra:hover
+{
+    cursor: pointer;
+}
+#reiniciar
+{
+    width: 280px;
+    height: 67px;
+    border-radius: 24px;
+    margin: 24px;
+    font-size: 16px;
+    color: darkblue;
+    border: 1px solid #0A3871;
+    margin-left: 340px;
+}
+
+#reiniciar:hover
+{
+    cursor: pointer;
+}
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+  <meta charset="UTF-8">
+  <title>JUEGO DEL AHORCADO</title>
+  <link rel="StyleSheet" href="Style.css">
+  </head>
+  <body id="cuerpo">
+    <header>
+      <h1>AHORCADO</h1>
+    </header>
+    <main id="botonera">
+        <p id="instrucciones">INSTRUCCIONES:
+           <ul id="lista">
+             <li>Usar solo letras mayúsculas</li>
+             <li>No usar acentos </li>
+             <li>No usar caracteres especiales</li>
+           </ul>
+        </p>
+        <button onclick="iniciarJuego()" id="iniciarJuego" >INICIAR JUEGO</button>
+        <br>
+        <input type="text" id="agregarPalabra"  placeholder="AGREGUE AQUI UNA PALABRA">          <br>
+        <button id="agregar_palabra">AGREGAR PALABRA</button>
+        <BR>
+        <button id="reiniciar" onclick="window.location.reload()" style="display : none"; >REINICIAR</button>
+        <canvas id="canvas" width="1010" height="600" ></canvas>
+        
+        <script src="js/canvas.js"></script>
+        <script src="js/iniciarJuego.js"></script>
+        <script src="js/compararLetras.js"></script>
+        <script src="js/agregarPalabra.js"></script>
+        <script src="js/diccionario.js"></script>
+  
+      </main>
+    <hr>
+    <footer>ESTA PAGINA FUE REALIZADA POR MARQUEZ PAGNAT JUAN PABLO</footer>
+  </body>
+</html>
