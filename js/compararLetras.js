@@ -1,4 +1,4 @@
-
+var con;
 function compararLetra(){
     var arreglo=Array.from(palabraAleatoria);
     var incluye=arreglo.includes(teclaPulsada);
@@ -15,6 +15,8 @@ function compararLetra(){
           var yaEstaEscrita=letrasAcertadas.includes(teclaPulsada);
             if(yaEstaEscrita==true){
               alert("Se repite la letra");
+              contadorA=(contadorA-con)-1;
+              console.log(contadorA)
             }else{
               letrasAcertadas.push(teclaPulsada);
             }

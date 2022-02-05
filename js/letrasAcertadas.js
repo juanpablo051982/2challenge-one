@@ -1,10 +1,13 @@
 function canvasLetrasAcertadas(){
   var indices = [];
+  
   var idx = palabraAleatoria.indexOf(teclaPulsada);
     while (idx != -1) {
       indices.push(idx);
       idx = palabraAleatoria.indexOf(teclaPulsada, idx + 1);
     }
+    con=indices.length;
+  
     for(var i=0;i<indices.length;i++){
       contadorA++
       var array=Array.from (palabraConGuiones);

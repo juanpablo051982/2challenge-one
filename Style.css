@@ -1,9 +1,10 @@
-body{
-    background-color: cornflowerblue;
+footer {
+    color:rgb(1, 1, 14);
+    text-align: center;
 }
 header{
     text-align: center;
-    background-color:rgb(4, 4, 90);
+    background-color:transparent;
     font-size: xx-large;
     font-weight: 400;
     color:rgb(247, 18, 48);
@@ -12,6 +13,7 @@ header{
 }
 #canvas{
     margin-left: -10px;
+    margin-bottom: -10PX;
 }
 #iniciarJuego
 {
