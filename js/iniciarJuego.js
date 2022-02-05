@@ -1,11 +1,10 @@
+var letrasAcertadas=[];
 var letrasErradas=[];
 var contador=0;
+var contadorA=0;
 var teclaPulsada=0;
 function iniciarJuego (){
   dibujarHorca();
-    letrasErradas=[];
-    contador=0;
-    teclaPulsada=0;
     document.querySelector("#instrucciones").style.display = "none";
     document.querySelector("#lista").style.display = "none"; 
     document.querySelector("#iniciarJuego").style.display = "none";
@@ -21,7 +20,6 @@ function iniciarJuego (){
       capturarLetra();  
 }
 function capturarLetra(){
-  
   document.addEventListener("keydown",(event)=>{
     teclaPulsada=event.key;
     console.log(teclaPulsada);
@@ -34,9 +32,7 @@ function capturarLetra(){
         }else{
           compararLetra();
         }
-        
   });
-
 }
 
    
