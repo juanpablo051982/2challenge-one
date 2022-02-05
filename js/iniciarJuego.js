@@ -12,6 +12,7 @@ function iniciarJuego (){
     document.querySelector("#agregarPalabra").style.display = "none"; 
     document.querySelector("#agregar_palabra").style.display = "none";
     document.querySelector("#reiniciar").style.display = "block"; 
+    document.querySelector("#canvas").style.display = "block"; 
     var pantalla = document.getElementById("canvas");
     var pincel = pantalla.getContext("2d");
       pincel.font="50px verdana";
