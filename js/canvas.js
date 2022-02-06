@@ -2,7 +2,7 @@
 function dibujarHorca(){
   var pantalla = document.getElementById("canvas");
   var pincel = pantalla.getContext("2d");
-      pincel.fillStyle= "white";
+      pincel.fillStyle= "#f7dc6f";
       pincel.fillRect(0,0,1010,600);
     
     
