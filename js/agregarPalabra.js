@@ -11,7 +11,7 @@ var validacion=input.search(regu);
     palabras.push(input);
     alert ("La palabra fue ingresada exitosamente.")
     }else {
-     alert("La palabra ya se encontraba en la base de datos,ingrese otra palabra si lo desea. ")
+     alert("La palabra ya se encuentra en la base de datos,ingrese otra palabra si lo desea. ")
     }
   }
   console.log(palabras);
