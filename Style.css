@@ -33,7 +33,11 @@ header{
 {
     cursor: pointer;
 }
-
+@media screen and (max-width: 400px) {
+    #tecladoCelular {
+      display:inline-block ;
+    }
+  }
 #agregar_palabra
 {
     width: 280px;

@@ -20,6 +20,7 @@ function iniciarJuego (){
       capturarLetra();  
 }
 function capturarLetra(){
+  if (window.matchMedia("(min-width: 400px)").matches) {
   document.addEventListener("keydown",(event)=>{
     teclaPulsada=event.key;
     console.log(teclaPulsada);
@@ -33,9 +34,15 @@ function capturarLetra(){
           compararLetra();
         }
   });
+  }else{
+  
+    document.addEventListener("keydown",(event)=>{
+      teclaPulsada=event.key;})
+  }
 }
 
-   
+
+
     
 
   
