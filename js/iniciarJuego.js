@@ -35,7 +35,7 @@ function capturarLetra(){
         }
   });
   }else{
-  
+    document.querySelector("#tecladoCelular").style.display = "block"; 
     document.addEventListener("keydown",(event)=>{
       teclaPulsada=event.key;})
   }
