@@ -38,6 +38,16 @@ function capturarLetra(){
     document.querySelector("#tecladoCelular").style.display = "inline-block"; 
     document.addEventListener("input",(event)=>{
       teclaPulsada=event.data;})
+      var regular= /[A-Z]/g;
+      var validacion=teclaPulsada.search(regular);
+      if (teclaPulsada =="Enter"||teclaPulsada=="Shift"||teclaPulsada=="Control"||teclaPulsada=="CapsLock"||teclaPulsada=="Alt"){
+      validacion=-1;}
+        if (validacion==-1){
+          alert("solo se puede ingresar mayusculas");
+        }else{
+          compararLetra();
+        }
+
   }
 }
 
