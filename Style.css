@@ -80,3 +80,30 @@ ul{
     cursor: pointer;
 }
 
+@media screen and (max-width: 400px) {
+    #iniciarJuego {
+      margin-left:150px;
+    }
+    header{
+        margin-left: 150px;}
+    p{
+        margin-left: 150PX;
+    }
+    ul{
+        margin-left: 150PX;
+    }
+    #agregar_palabra{
+        margin-left: 160px;
+    }
+    #agregarPalabra{
+        margin-left: 160PX; 
+    }
+    #tecladoCeluar{ 
+        
+        width: 280px;
+        height: 67px;
+        justify-content: center;
+        text-align: center;
+
+    } 
+}

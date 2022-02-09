@@ -10,7 +10,7 @@ function iniciarJuego (){
     document.querySelector("#iniciarJuego").style.display = "none";
     document.querySelector("#agregarPalabra").style.display = "none"; 
     document.querySelector("#agregar_palabra").style.display = "none";
-    document.querySelector("#reiniciar").style.display = "block"; 
+    document.querySelector("#reiniciar").style.display = "inline-block"; 
     document.querySelector("#canvas").style.display = "block"; 
     var pantalla = document.getElementById("canvas");
     var pincel = pantalla.getContext("2d");
@@ -35,9 +35,9 @@ function capturarLetra(){
         }
   });
   }else{
-    document.querySelector("#tecladoCelular").style.display = "block"; 
-    document.addEventListener("keydown",(event)=>{
-      teclaPulsada=event.key;})
+    document.querySelector("#tecladoCelular").style.display = "inline-block"; 
+    document.addEventListener("input",(event)=>{
+      teclaPulsada=event.data;})
   }
 }
 
