@@ -36,7 +36,7 @@ function capturarLetra(){
   });
   }else{
     document.querySelector("#tecladoCelular").style.display = "inline-block"; 
-    document.addEventListener("input",(event)=>{
+    document.addEventListener("#tecladoCelular",(event)=>{
       teclaPulsada=event.data;})
       var regular= /[A-Z]/g;
       var validacion=teclaPulsada.search(regular);
@@ -47,7 +47,7 @@ function capturarLetra(){
         }else{
           compararLetra();
         }
-
+      document.getElementById("tecladoCelular").value= "";
   }
 }
 
