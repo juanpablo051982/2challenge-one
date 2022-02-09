@@ -82,23 +82,23 @@ ul{
 
 @media screen and (max-width: 400px) {
     #iniciarJuego {
-      margin-left:250px;
+      margin-left:230px;
     }
     header{
-        text-align: center;}
+        text-align:justify;}
     p{
-        margin-left: 250PX;
-        text-align: center;
+        margin-left: 230PX;
+        text-align: justify;
     }
     ul{
-        margin-left: 250PX;
-        text-align: center;
+        margin-left: 230PX;
+        text-align: justify;
     }
     #agregar_palabra{
-        margin-left: 260px;
+        margin-left: 240px;
     }
     #agregarPalabra{
-        margin-left: 260PX; 
+        margin-left: 240PX; 
     }
     #tecladoCelular{ 
         
@@ -109,6 +109,6 @@ ul{
     }
     footer {
         color:rgb(1, 1, 14);
-        text-align: center;
+        text-align: justify;
     } 
 }
