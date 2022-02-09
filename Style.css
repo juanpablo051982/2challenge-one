@@ -23,7 +23,7 @@ header{
     border-radius: 24px;
     margin: 24px;
     font-size: 18px;
-    color: white;
+    color: rgb(155, 5, 5);
     background-color: #0A3871;
     justify-content: center;
     margin-left: 320PX;
@@ -82,28 +82,33 @@ ul{
 
 @media screen and (max-width: 400px) {
     #iniciarJuego {
-      margin-left:150px;
+      margin-left:250px;
     }
     header{
-        margin-left: 150px;}
+        text-align: center;}
     p{
-        margin-left: 150PX;
+        margin-left: 250PX;
+        text-align: center;
     }
     ul{
-        margin-left: 150PX;
+        margin-left: 250PX;
+        text-align: center;
     }
     #agregar_palabra{
-        margin-left: 160px;
+        margin-left: 260px;
     }
     #agregarPalabra{
-        margin-left: 160PX; 
+        margin-left: 260PX; 
     }
-    #tecladoCeluar{ 
+    #tecladoCelular{ 
         
         width: 280px;
         height: 67px;
         justify-content: center;
         text-align: center;
-
+    }
+    footer {
+        color:rgb(1, 1, 14);
+        text-align: center;
     } 
 }
