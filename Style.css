@@ -108,6 +108,17 @@ ul{
         justify-content: center;
         text-align: center;
     }
+    #agregar_letra{
+        width: 317px;
+        height: 105px;
+        border-radius: 24px;
+        margin: 24px;
+        font-size: 18px;
+        color: rgb(155, 5, 5);
+        background-color: #0A3871;
+        justify-content: center;
+        margin-left: 340PX;
+    }
     footer {
         color:rgb(1, 1, 14);
         text-align: justify;

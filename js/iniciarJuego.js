@@ -36,8 +36,10 @@ function capturarLetra(){
   });
   }else{
     document.querySelector("#tecladoCelular").style.display = "inline-block"; 
-    document.addEventListener("#tecladoCelular",(event)=>{
-      teclaPulsada=event.data;})
+    document.querySelector("#ingresar_letra").style.display = "inline-block";
+    var inputLetra= document.querySelector("#ingresar_letra");
+    inputLetra.addEventListener("click",function(){
+    teclaPulsada= document.getElementById("#tecladoCelular").value;
       var regular= /[A-Z]/g;
       var validacion=teclaPulsada.search(regular);
       if (teclaPulsada =="Enter"||teclaPulsada=="Shift"||teclaPulsada=="Control"||teclaPulsada=="CapsLock"||teclaPulsada=="Alt"){
@@ -48,6 +50,7 @@ function capturarLetra(){
           compararLetra();
         }
       document.getElementById("tecladoCelular").value= "";
+    }) 
   }
 }
 
