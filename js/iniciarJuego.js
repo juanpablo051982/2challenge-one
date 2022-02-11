@@ -39,8 +39,9 @@ function capturarLetra(){
     document.querySelector("#ingresar_letra").style.display = "inline-block";
     var inputLetra= document.querySelector("#ingresar_letra");
     inputLetra.addEventListener("click",function(){
-    teclaPulsada= document.getElementById("#tecladoCelular").value;
-      var regular= /[A-Z]/g;
+    teclaPulsada= document.getElementById("tecladoCelular").value;
+     console.log(teclaPulsada)  
+    var regular= /[A-Z]/g;
       var validacion=teclaPulsada.search(regular);
       
         if (validacion==-1){
